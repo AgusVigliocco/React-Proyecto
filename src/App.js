@@ -1,14 +1,14 @@
 import './App.css';
 import Navbar from './components/NavBar';
-
-
-
+import ItemListContainer from './components/ItemListContainer';
 
 const App = () => {
   return (
     <>
-      <Navbar />
-
+      <div>
+        <Navbar />
+        <ItemListContainer />
+      </div>
     </>
   );
 };
