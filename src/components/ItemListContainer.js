@@ -1,11 +1,6 @@
-
-function ItemListContainer() {
+const ItemListContainer = ({ greeting }) => {
     return (
-        <>
-            <p>
-                ItemListContainer!!!
-            </p>
-        </>
-    )
+        console.log("hola mundo")
+    );
 }
 export default ItemListContainer;
